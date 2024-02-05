@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.nav-container{
+    background-color: #131921;
+    vertical-align: baseline;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+}
+.select-search{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #F3A847;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+.nav-search:hover{
+    border: 1px solid rgb(255, 166, 0);
+}
+.border-div:hover{
+    border: 1px solid white;
+    transition: 0.6s;
+}
+.nav-right>i{
+    margin: 0px 5px;
+    font-size: 20px;
+} 
+.container-fluid div{
+    display: inline-block;
+}
+.nav-down-menu{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 100vw;
+    height: 6vh;
+    border: 1px solid black;
+    background-color: #232F3E;
+    color: white;
+}
+.all-menu{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.all-menu i{
+    font-size: large;
+}
+.all-menu:hover{
+    border: 1px solid white;
+    padding: 6px 7px;
+    transition: 0.5s;
+}
+.deals:hover{
+    border: 1px solid white;
+    padding: 6px 7px;
+    transition: 0.5s;
+}
+.customer-service:hover{
+    border: 1px solid white;
+    padding: 6px 7px;
+    transition: 0.5s;
+}
+.registry:hover{
+    border: 1px solid white;
+    padding: 6px 7px;
+    transition: 0.5s;
+}
+.Gift-cards:hover{
+    border: 1px solid white;
+    padding: 6px 7px;
+    transition: 0.5s;
+}
+.sell:hover{
+    border: 1px solid white;
+    padding: 6px 7px;
+    transition: 0.5s;
+}
+.carousel-item>img{
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom,#000000 50%,transparent 100% );
+}
+/* ========================= FLEXBOXES STARTED ITEM-1 ================================ */
+.flex-item1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 3px black;
+    width: 23%;
+    height: 60%;
+    margin: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 62%;
+    right: 73%;
+}
+.flex-item1-head{
+    width: 100vw;
+    height: 10vh;
+}
+.flex-item1-head>h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 15px 20px;
+}
+.flex-item1-img{
+    width: 100vw;
+    height: 40vh;
+}
+.flex-item1-img>img{
+    width: 45%;
+    height: 35%;
+    margin: 8px 5px 5px 5px; 
+}
+.flex-item1-a{
+    width: 100vw;
+    height: 7vh;
+}
+.flex-item1-a>a{
+    text-decoration: none;
+    font-size: 0.8em;
+    margin: 10px;
+}
+.flex-item1-a>a:hover{
+    color: red;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+/* ========================= FLEXBOXES STARTED ITEM-2 ================================ */
+.flex-item2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 3px black;
+    width: 23%;
+    height: 60%;
+    margin: 20px;
+    position: absolute;
+    top: 62%;
+    right: 49%;
+}
+.flex-item2-head{
+    width: 100vw;
+    height: 10vh;
+}
+.flex-item2-head>h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 15px 20px;
+}
+.flex-item2-img{
+    width: 100vw;
+    height: 40vh;
+}
+.flex-item2-img>img{
+    width: 90%;
+    height: 100%;
+    margin: 2px 10px 2px 13px; 
+}
+.flex-item2-a{
+    width: 100vw;
+    height: 7vh;
+}
+.flex-item2-a>a{
+    text-decoration: none;
+    font-size: 0.8em;
+    margin: 10px;
+}
+.flex-item2-a>a:hover{
+    color: red;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+/* ========================= FLEXBOXES STARTED ITEM-3 ================================ */
+.flex-item3{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 3px black;
+    width: 23%;
+    height: 60%;
+    margin: 20px;
+    position: absolute;
+    top: 62%;
+    right: 25%;
+}
+.flex-item3-head{
+    width: 100vw;
+    height: 10vh;
+}
+.flex-item3-head>h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 15px 20px;
+}
+.flex-item3-img{
+    width: 100vw;
+    height: 40vh;
+}
+.flex-item3-img>img{
+    width: 90%;
+    height: 100%;
+    margin: 2px 10px 2px 13px; 
+}
+.flex-item3-a{
+    width: 100vw;
+    height: 7vh;
+}
+.flex-item3-a>a{
+    text-decoration: none;
+    font-size: 0.8em;
+    margin: 10px;
+}
+.flex-item3-a>a:hover{
+    color: red;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+/* ========================= FLEXBOXES STARTED ITEM-4 ================================ */
+.flex-item4{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 3px black;
+    width: 23%;
+    height: 60%;
+    margin: 20px;
+    position: absolute;
+    top: 62%;
+    right: 1%;
+}
+.flex-item4-head{
+    width: 100vw;
+    height: 10vh;
+}
+.flex-item4-head>h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 15px 20px;
+}
+.flex-item4-img{
+    width: 100vw;
+    height: 40vh;
+}
+.flex-item4-img>img{
+    width: 45%;
+    height: 48%;
+    padding: 2px 3px 2px 3px;
+    margin: 8px 5px 5px 5px; 
+}
+.flex-item4-a{
+    width: 100vw;
+    height: 7vh;
+}
+.flex-item4-a>a{
+    text-decoration: none;
+    font-size: 0.8em;
+    margin: 10px;
+}
+.flex-item4-a>a:hover{
+    color: red;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+/* ========================= FLEXBOXES STARTED ITEM-5 ================================ */
+.flex-item5{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 3px black;
+    width: 23%;
+    height: 60%;
+    margin: 20px;
+    position: absolute;
+    top: 125%;
+    right: 73%;
+}
+.flex-item5-head{
+    width: 100vw;
+    height: 10vh;
+}
+.flex-item5-head>h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 15px 20px;
+}
+.flex-item5-img{
+    width: 100vw;
+    height: 40vh;
+}
+.flex-item5-img>img{
+    width: 90%;
+    height: 100%;
+    margin: 2px 10px 2px 13px; 
+}
+.flex-item5-a{
+    width: 100vw;
+    height: 7vh;
+}
+.flex-item5-a>a{
+    text-decoration: none;
+    font-size: 0.8em;
+    margin: 10px;
+}
+.flex-item5-a>a:hover{
+    color: red;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+/* ========================= FLEXBOXES STARTED ITEM-6 ================================ */
+.flex-item6{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 3px black;
+    width: 23%;
+    height: 60%;
+    margin: 20px;
+    position: absolute;
+    top: 125%;
+    right: 49%;
+}
+.flex-item6-head{
+    width: 100vw;
+    height: 10vh;
+}
+.flex-item6-head>h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 15px 20px;
+}
+.flex-item6-img{
+    width: 100vw;
+    height: 40vh;
+}
+.flex-item6-img>img{
+    width: 45%;
+    height: 48%;
+    padding: 2px 3px 2px 3px;
+    margin: 8px 5px 5px 5px; 
+}
+.flex-item6-a{
+    width: 100vw;
+    height: 7vh;
+}
+.flex-item6-a>a{
+    text-decoration: none;
+    font-size: 0.8em;
+    margin: 10px;
+}
+.flex-item6-a>a:hover{
+    color: red;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+/* ========================= FLEXBOXES STARTED ITEM-7 ================================ */
+.flex-item7{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 3px black;
+    width: 23%;
+    height: 60%;
+    margin: 20px;
+    position: absolute;
+    top: 125%;
+    right: 25%;
+}
+.flex-item7-head{
+    width: 100vw;
+    height: 10vh;
+}
+.flex-item7-head>h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 15px 20px;
+}
+.flex-item7-img{
+    width: 100vw;
+    height: 40vh;
+}
+.flex-item7-img>img{
+    width: 90%;
+    height: 100%;
+    margin: 2px 10px 2px 13px; 
+}
+.flex-item7-a{
+    width: 100vw;
+    height: 7vh;
+}
+.flex-item7-a>a{
+    text-decoration: none;
+    font-size: 0.8em;
+    margin: 10px;
+}
+.flex-item7-a>a:hover{
+    color: red;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+/* ========================= FLEXBOXES STARTED ITEM-8 ================================ */
+.flex-item8{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: flex-end; 
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 3px black;
+    width: 23%;
+    height: 60%;
+    margin: 20px;
+    position: absolute;
+    top: 125%;
+    right: 1%;
+}
+.flex-item8-head{
+    width: 100vw;
+    height: 10vh;
+}
+.flex-item8-head>h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 15px 20px;
+}
+.flex-item8-img{
+    width: 100vw;
+    height: 40vh;
+}
+.flex-item8-img>img{
+    width: 90%;
+    height: 100%;
+    margin: 2px 10px 2px 13px; 
+}
+.flex-item8-a{
+    width: 100vw;
+    height: 7vh;
+}
+.flex-item8-a>a{
+    text-decoration: none;
+    font-size: 0.8em;
+    margin: 10px;
+}
+.flex-item8-a>a:hover{
+    color: red;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+/* ========================== FOOTER START ================================ */
+.sign-in-div{
+    padding: 50px;
+    margin-top: 44%;
+    width: 100vw;
+    height: 30vh;
+    background-color: white;
+    text-align: center;
+    display: inline-block;   
+}
+@media screen and (mix-width: 1024px) and (min-width: 340px) {
+    .sign-in-div{
+        position: static; 
+    }
+}
+
+.sign-in-btn>button{
+    width: 250px;
+    background: linear-gradient(#FFD875,#fcbd1e);
+    border: 1px solid #E3CB2C;
+    font-weight: bolder;  
+}
+.back-to-top{
+    background-color: #4b5c73;
+    text-align: center;
+    padding: 7px;
+    width: 100vw;
+}
+.back-to-top>a{
+    text-decoration: none;
+    color: white;
+}
+.back-to-top:hover{
+    background-color: #798088;
+}
+.footer-one>img{
+    width: 100vw;
+}
+.footer-two>img{
+    width: 100vw;
+}
+@media screen and (min-width: 340px) { 
+    body{
+        width: 100%;
+    }
+}
+@media screen and (mix-width: 1440px) { 
+    body{
+        width: 100%;
+    }
+}
+@media screen and (mix-width: 2560px) { 
+    body{
+        width: 100%;
+    }
+}
